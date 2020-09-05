@@ -1,0 +1,97 @@
+.container {
+  max-width: 1140px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn__primary, .btn__secondary {
+  display: inline-block;
+  border-radius: 7px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+.btn__primary:hover, .btn__secondary:hover {
+  transform: scale(0.9);
+}
+
+.btn__primary {
+  background-color: #5b9bff;
+  color: #333;
+}
+
+.btn__secondary {
+  background-color: #ff8700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #0e6cff;
+  color: #fff;
+  max-height: 90vh;
+}
+
+.header nav {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header nav ul li {
+  padding: 15px;
+}
+
+.header nav a:hover {
+  color: #ff8700;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header__content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__content .Hcontent h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.header__content .Hcontent p {
+  margin: 20px 0;
+}
+
+.header__content img {
+  width: 50%;
+}
+/*# sourceMappingURL=main.min.css.map */
